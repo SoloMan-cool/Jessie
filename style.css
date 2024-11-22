@@ -1,0 +1,64 @@
+body {
+    background: rgb(31, 32, 34);
+}
+
+.container {
+    max-width: 1512px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-silka {
+    margin-left: auto;
+    color: rgb(238, 238, 238);
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0 381px 0 289px;
+}
+
+/* .header__item {} */
+
+.header__silka {
+    color: rgb(238, 238, 238);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.active {
+    color: rgb(0, 173, 181);
+}
+
+.header__btn {
+    border: 1px solid transparent;
+    margin-right: auto;
+    border-radius: 3px;
+    background: rgb(238, 238, 238);
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    transition: all 1s;
+}
+
+.header__btn:hover {
+    border: 1px solid rgb(238, 238, 238);
+    background-color: transparent;
+    color: rgb(238, 238, 238);
+}
